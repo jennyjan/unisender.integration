@@ -4,9 +4,9 @@
 ## WhereToUse
 ###### local/components/shop/sale.order.ajax/class.php
 
-#####Добавить функцию
+##### Добавить функцию unisenderSubscribe() - добавление пользователя в список рассылки Unisender
+
     <?php
-     /* Добавить пользователя в список рассылки Unisender */
     protected function unisenderSubscribe()
     {
         $personType = $this->request->get('PERSON_TYPE');
